@@ -1,6 +1,7 @@
 var permissionsName = 'Permissions';
 
 function Permissions() {
+    this.ACCESS_NOTIFICATION_POLICY = 'android.permission.ACCESS_NOTIFICATION_POLICY';
 
     this.ACCESS_CHECKIN_PROPERTIES = 'android.permission.ACCESS_CHECKIN_PROPERTIES';
     this.ACCESS_BACKGROUND_LOCATION = 'android.permission.ACCESS_BACKGROUND_LOCATION';
